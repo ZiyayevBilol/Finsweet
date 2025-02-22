@@ -1,46 +1,30 @@
 .home {
   background: #1C1E53;
-  padding-top: 32px;
-  padding-bottom: 30px;
-  margin-bottom: 200px;
+  padding-top: 149px;
 }
 .home-section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 60px;
 }
-.home-section__right ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  list-style-type: none;
+.home-section h1 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74px;
+  letter-spacing: 0%;
+  color: White;
+  max-width: 582px;
+  margin-bottom: 24px;
 }
-.home-section__right ul a {
-  text-decoration: none;
+.home-section p {
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0%;
   color: #BBBBCB;
-}
-.home-section__right ul a:hover {
-  color: #FFFFFF;
-  transition: all 1s;
-}
-.home-section button {
-  border: 2px solid rgba(244, 246, 252, 0.2);
-  border-radius: 41px;
-  padding: 16px 48px;
-  background: transparent;
-}
-.home-section button a {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-.home-section button:hover {
-  transform: scale(1.1);
+  margin-bottom: 48px;
 }
 
 * {
@@ -152,16 +136,16 @@
   color: #FFFFFF;
   transition: all 1s;
 }
-.header-section button {
+.header-section .button {
   border: 2px solid rgba(244, 246, 252, 0.2);
   border-radius: 41px;
   padding: 16px 48px;
   background: transparent;
 }
-.header-section button a {
+.header-section .button a {
   text-decoration: none;
   color: #FFFFFF;
 }
-.header-section button:hover {
+.header-section .button:hover {
   transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
