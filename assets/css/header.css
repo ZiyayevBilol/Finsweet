@@ -1,0 +1,44 @@
+.header {
+  background: #1C1E53;
+  padding-top: 32px;
+  padding-bottom: 30px;
+  margin-bottom: 200px;
+}
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-section__right ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+}
+.header-section__right ul a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #BBBBCB;
+}
+.header-section__right ul a:hover {
+  color: #FFFFFF;
+  transition: all 1s;
+}
+.header-section button {
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  border-radius: 41px;
+  padding: 16px 48px;
+  background: transparent;
+}
+.header-section button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.header-section button:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=header.css.map */
