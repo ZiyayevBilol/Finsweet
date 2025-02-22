@@ -1,13 +1,14 @@
 .home {
   background: #1C1E53;
   padding-top: 149px;
+  padding-bottom: 128px;
 }
 .home-section {
   display: flex;
   align-items: center;
   gap: 60px;
 }
-.home-section h1 {
+.home-section__left h1 {
   font-family: Poppins;
   font-weight: 600;
   font-size: 54px;
@@ -17,7 +18,7 @@
   max-width: 582px;
   margin-bottom: 24px;
 }
-.home-section p {
+.home-section__left p {
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
@@ -25,6 +26,41 @@
   letter-spacing: 0%;
   color: #BBBBCB;
   margin-bottom: 48px;
+}
+.home-section__left .btn {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.home-section__left .btn-left {
+  border: 1px solid #FCD980;
+  padding: 16px 56px;
+  background: #FCD980;
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #1B1C2B;
+  border-radius: 41px;
+  cursor: pointer;
+}
+.home-section__left .btn-left:hover {
+  background: #1C1E53;
+  color: white;
+  border: 2px solid yellowgreen;
+  transition: all 0.8s;
+}
+.home-section__left .btn-right {
+  border: none;
+  background: transparent;
+  color: white;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
 }
 
 * {
@@ -39,6 +75,56 @@
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+#navbar-open {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+#navbar-open:hover {
+  transform: rotate(30deg);
+  transition: all 0.8s;
+}
+
+#navbar-responsive {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: -100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 0;
+  align-items: center;
+  width: 100%;
+  transition: 0.5s;
+  list-style-type: none;
+}
+#navbar-responsive .navbar-item {
+  margin-bottom: 20px;
+}
+#navbar-responsive a {
+  color: black;
+  text-decoration: none;
+}
+#navbar-responsive a:hover {
+  color: blue;
+}
+
+#navbar-close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}
+#navbar-close:hover {
+  transform: rotate(360deg);
+  transition: all 1s;
 }
 
 .footer {
@@ -136,16 +222,28 @@
   color: #FFFFFF;
   transition: all 1s;
 }
-.header-section .button {
+.header-section .btn-page {
   border: 2px solid rgba(244, 246, 252, 0.2);
   border-radius: 41px;
   padding: 16px 48px;
   background: transparent;
 }
-.header-section .button a {
+.header-section .btn-page a {
   text-decoration: none;
   color: #FFFFFF;
 }
-.header-section .button:hover {
+.header-section .btn-page:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 750px) {
+  .header-section__right ul {
+    display: none;
+  }
+  .btn-page {
+    display: none;
+  }
+  #navbar-open {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */

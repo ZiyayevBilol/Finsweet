@@ -1,0 +1,13 @@
+@media(max-width: 750px){
+    .header-section__right{
+    ul {
+            display: none;
+        }
+    }
+    .btn-page{
+        display: none;
+    }
+    #navbar-open{
+        display: block;
+    }
+}

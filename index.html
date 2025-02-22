@@ -21,21 +21,64 @@
           </div>
           <div class="header-section__right">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="./pages/about.html">About us</a></li>
-              <li><a href="./pages/pricing.html">Pricing</a></li>
-              <li><a href="./pages/work.html">Work</a></li>
-              <li><a href="./pages/blog.html">Blog</a></li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="#">Home</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="./pages/about.html">About us</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="./pages/pricing.html">Pricing</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="./pages/work.html">Work</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="./pages/blog.html">Blog</a>
+              </li>
             </ul>
           </div>
           <div>
-            <button class="button">
+            <button class="btn-page">
               <a href="./pages/contact.html">Contact us</a>
             </button>
           </div>
+          <button id="navbar-open">
+            <img
+              src="./images/header/menu_30dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="MENU"
+            />
+          </button>
         </div>
       </nav>
     </header>
+    <ul id="navbar-responsive">
+      <li class="navbar-item">
+        <a class="navbar-link" href="#">Home</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" href="./pages/about.html">About us</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" href="./pages/pricing.html">Pricing</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" href="./pages/work.html">Work</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" href="./pages/blog.html">Blog</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" href="./pages/contact.html">contact</a>
+      </li>
+      <button class="navbar-close" id="navbar-close">
+        <img
+          src="./images/header/close_30dp_F19E39_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="close"
+        />
+      </button>
+    </ul>
+
     <main>
       <section class="home">
         <div class="container">
@@ -46,9 +89,9 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt.
               </p>
-              <div>
-                <button>View our work</button>
-                <button>View Pricing --></button>
+              <div class="btn">
+                <button class="btn-left">View our work</button>
+                <button class="btn-right">View Pricing -></button>
               </div>
             </div>
             <div class="home-section__right">
@@ -60,7 +103,7 @@
       <section></section>
       <section></section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer-section">
           <div class="footer-section__left">
@@ -101,6 +144,7 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

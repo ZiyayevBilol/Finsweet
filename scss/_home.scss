@@ -1,12 +1,14 @@
 .home{
     background: #1C1E53;
     padding-top: 149px;
+    padding-bottom: 128px;
     &-section{
         display: flex;
         align-items: center;
         gap: 60px;
-        h1{
-            font-family: Poppins;
+        &__left{
+            h1{
+                font-family: Poppins;
                 font-weight: 600;
                 font-size: 54px;
                 line-height: 74px;
@@ -24,5 +26,41 @@
                 color: #BBBBCB;
                 margin-bottom: 48px;
         }
+        .btn{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            &-left{
+                border: 1px solid #FCD980;
+                padding: 16px 56px;
+                background: #FCD980;
+                font-family: Manrope;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 32px;
+            letter-spacing: 0%;
+            color: #1B1C2B;
+            border-radius: 41px;
+            cursor: pointer;
+            &:hover{
+                background: #1C1E53;
+                color: white;
+                border: 2px solid yellowgreen;
+                transition: all 0.8s;
+            }
+        }
+        &-right{
+            border: none;
+            background: transparent;
+            color: white;
+            font-family: Poppins;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0%;
+            color: #FFFFFF;
+        }
+    }
+     }
     }
 }
