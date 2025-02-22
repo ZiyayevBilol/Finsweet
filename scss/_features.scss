@@ -1,0 +1,55 @@
+.features{
+    &-paragraph{
+        font-family: Poppins;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            text-align: center;
+            color: Dark blue;
+            margin-bottom: 12px;
+    }
+    h1{
+        font-family: Poppins;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 64px;
+            letter-spacing: 0%;
+            text-align: center;
+            color: Dark blue;
+            margin-bottom: 47px;
+            max-width: 630px;
+            margin-left: auto;
+            margin-right: auto;
+    }
+    &-section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        &__items{
+            border: 1px solid wheat;
+            padding: 47px 31px 48px 48px;
+            
+            p{
+                font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: 0%;
+                    color: #BBBBCB;
+                    max-width: 324px;
+            }
+            h2{
+                font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 36px;
+                    letter-spacing: 0%;
+                    color: #282938;
+                    margin-bottom: 12px;
+                    margin-top: 15px;
+            }
+        }
+    }
+}

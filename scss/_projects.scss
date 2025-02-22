@@ -1,0 +1,121 @@
+.projects{
+    margin-top: 87px;
+    margin-bottom: 156px;
+    &-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            font-family: Poppins;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 64px;
+                letter-spacing: 0%;
+                color: #282938;
+                margin-bottom: 64px;
+        }
+        .btn-contact{
+            border: none;
+            color: #282938;
+            font-family: Poppins;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0%;
+                cursor: pointer;
+                background: transparent;
+                margin-bottom: 64px;
+        }
+    }
+    &-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        &__left{
+            img{
+                width: 100%;
+            }
+            position: relative;
+            &__content{
+                background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                position: absolute;
+                width: 100%;
+                bottom: 70px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                h3{
+                    font-family: Poppins;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 36px;
+                    letter-spacing: 0%;
+                    color: White;
+                    max-width: 312px;
+                    margin-bottom: 16px;
+                }
+                p{
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: 0%;
+                    color: #BBBBCB;
+                    max-width: 293px;
+                    margin-bottom: 40px;
+                }
+                .btn-contact{
+            border: none;
+            color: yellow;
+            font-family: Poppins;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0%;
+                cursor: pointer;
+                background: transparent;
+        }
+            }
+        }
+        &__right{
+            position: relative;
+            img{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+           &__content{
+            position: absolute;
+            top: 0px;
+            background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+            width: 100%;
+            h3 {
+                    font-family: Poppins;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 36px;
+                    letter-spacing: 0%;
+                    color: White;
+                    max-width: 312px;
+                    margin-top: 200px;
+                    margin-bottom: 16px;
+                }
+                .btn-contact{
+            border: none;
+            color: yellow;
+            font-family: Poppins;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0%;
+                cursor: pointer;
+                background: transparent;
+                margin-bottom: 10px;
+            }
+           } 
+        }
+        .img-right{
+            width: 100%;
+        }
+    }
+}
