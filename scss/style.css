@@ -550,6 +550,7 @@
   color: #BBBBCB;
 }
 
+<<<<<<< HEAD
 .workk {
   background: #F4F6FC;
 }
@@ -883,12 +884,26 @@ body {
 .cta h2 {
   color: #282938;
   margin-bottom: 20px;
+=======
+.students {
+  margin-top: 128px;
+  margin-bottom: 32px;
+}
+.students h2 {
+  display: flex;
+  justify-content: center;
+  width: 949;
+  height: 128;
+  top: 220px;
+  left: 326px;
+>>>>>>> 3627e28776fe227eded9f6210e7a4efc101cd0f2
   font-family: Poppins;
   font-weight: 600;
   font-size: 48px;
   line-height: 64px;
   letter-spacing: 0%;
   text-align: center;
+<<<<<<< HEAD
 }
 .cta p {
   width: 562;
@@ -915,4 +930,125 @@ body {
 
 .work {
   background: red;
+=======
+  color: #282938;
+}
+.students p {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  width: 228;
+  height: 28;
+  top: 364px;
+  left: 697px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.blog_imgs {
+  margin-bottom: 48px;
+}
+
+.had {
+  margin-bottom: 172px;
+}
+.had p {
+  width: 831;
+  height: 84;
+  top: 949px;
+  left: 385px;
+  opacity: 0.7;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #282938;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.blog h2 {
+  width: 208;
+  height: 64;
+  top: 1205px;
+  left: 696px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0%;
+  color: #282938;
+}
+
+.blogs {
+  width: 405px;
+  height: 593px;
+  top: 1317px;
+  left: 161px;
+  margin-bottom: 64px;
+}
+.blogs .top {
+  margin-bottom: 50px;
+}
+.blogs .top img {
+  width: 405px;
+  height: 285px;
+  top: 1317px;
+  left: 161px;
+}
+.blogs .bottom p {
+  margin-bottom: 17px;
+  width: 404;
+  height: 56;
+  top: 1802px;
+  left: 162px;
+  opacity: 0.7;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #282938;
+}
+.blogs .bottom h3 {
+  margin-bottom: 16px;
+  width: 404;
+  height: 108;
+  top: 1678px;
+  left: 162px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  color: #282938;
+}
+
+.blok {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+@media (max-width: 1300px) {
+  .blog_imgs img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1300px) {
+  .blok {
+    display: block;
+  }
+>>>>>>> 3627e28776fe227eded9f6210e7a4efc101cd0f2
 }/*# sourceMappingURL=style.css.map */
