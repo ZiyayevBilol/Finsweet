@@ -15,10 +15,7 @@
     }
     .footer-section{
         flex-wrap: wrap;
-        text-align: center;
         align-items: center;
-        margin-left: auto;
-        margin-right: auto;
         justify-content: center;
     }
     .footer-contact{
@@ -33,12 +30,6 @@
     flex-wrap: wrap;
     justify-content: center;
    }
-   h1{
-    text-align: center;
-   }
-   p{
-    text-align: center;
-   }
    .projects-section{
     flex-wrap: wrap;
    }
@@ -48,11 +39,7 @@
    .features-section{
        grid-template-columns: repeat(1, 1fr) !important;
        text-align: center;
-       margin-left: auto;
-       margin-right: auto;
        p{
-        margin-left: auto;
-        margin-right: auto;
        }
    }
 }
@@ -63,12 +50,5 @@
     .content-section{
         flex-wrap: wrap;
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        h1{
-            text-align: center;
-                margin-left: auto;
-                margin-right: auto;
-        }
     }
 }
