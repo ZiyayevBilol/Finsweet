@@ -170,6 +170,9 @@
   margin-top: 17px;
   margin-bottom: 28px;
 }
+.footer-section__right a {
+  text-decoration: none;
+}
 .footer-contact {
   display: flex;
   align-items: center;
