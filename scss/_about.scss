@@ -1,0 +1,157 @@
+.about-content{
+    display: flex;
+    align-items: center;
+    margin-top: 128px;  
+    margin-bottom: 128px;
+    
+    &_left{
+        h2{
+            font-family: Poppins;
+                font-weight: 400px;
+                font-size: 18px;
+                line-height: 32px;
+                letter-spacing: 0%;
+                color: #282938;
+        }
+        h1{
+            font-family: Poppins;
+                font-weight: 600px;
+                font-size: 54px;
+                line-height: 74px;
+                letter-spacing: 0%;
+                color: #282938;
+        }
+        p{
+            font-family: Poppins;
+                font-weight: 400px;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0%;
+                text-align: justify;
+                color: #282938;
+        }
+    }
+    &_right{
+        
+        img{
+            width: 100%;
+        }
+    }
+}
+.tripple{
+    margin-bottom: 128px;
+    &-content{
+    background: #F4F5F5;
+    &_up{
+        display: flex;
+        align-items: center;
+        gap: 61px;
+       padding: 96px;
+
+        &-side{
+            h1{
+                font-family: Poppins;
+                    font-weight: 600;
+                    font-size: 38px;
+                    line-height: 56px;
+                    letter-spacing: 0%;
+                    color: #282938;
+            }
+            p{
+                font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: 0%;
+                    color: #282938;
+            }
+        }
+    }
+    &_down-side img{
+        width: 100%;
+    }
+}
+}
+.team{
+    background-color: #F4F6FC;
+    &-content{
+        flex-wrap: wrap;
+        padding-top: 128px;
+        &_up{
+            
+            h1{
+                font-family: Poppins;
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 64px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                   
+            }
+        }
+        &_down{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 32px;
+            &-card{
+                background-color: #fff;
+                width: 296px;
+                    height: 340px;
+                    top: 1768px;
+                    left: 161px;
+                    margin-bottom: 128px;
+                    margin-top: 48px;
+                    img{
+                        margin-top: 45px;
+                        padding-bottom: 20px;
+                        width: 100%;
+                    }
+                    h2{
+                        font-family: Poppins;
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 36px;
+                            letter-spacing: 0%;
+                            text-align: center;
+                            color: #1D2130;
+                    }
+                    p{
+                        font-family: Poppins;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 28px;
+                            letter-spacing: 0%;
+                            color: #1D2130;
+                    }
+            }
+        }
+    }
+}
+@media(max-width: 1120px){
+    .about-content{
+flex-wrap: wrap;
+        justify-content: center;
+        .about-content_left{
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+}
+@media(max-width: 850px){
+    .tripple-content_up-side {
+        p{
+            font-size: 12px;
+        }
+        h1{
+            font-size: 16px;
+        }
+         
+    }
+}
+@media(max-width: 840px){
+    .team-content_down{
+        display: wrap;
+    }
+}
